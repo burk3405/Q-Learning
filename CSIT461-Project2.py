@@ -115,7 +115,7 @@ def main():
         print('Random action is ', a)
         sp = nextState(s,a)
 
-        # Q-Learning Implementation:
+        # Q-Learning Implementation-
 
         # Get the max Q value for next state sp over all actions
         maxQ_sp = max([Q[(sp, ap)] for ap in '^>v<'])
